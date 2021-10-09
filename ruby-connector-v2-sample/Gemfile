@@ -6,7 +6,7 @@ ruby '2.4.5'
 gem "pg"
 gem "devise"
 gem "jwt"
-gem "sidekiq"
+gem "sidekiq", ">= 5.2.0"
 gem "rest-client"
 gem "hiredis"
 gem "redis-namespace"
