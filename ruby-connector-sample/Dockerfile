@@ -1,4 +1,4 @@
-FROM ruby:2.5
+FROM ruby:2.7.6
 
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
 RUN apt-get update -qq && apt-get install -y zlib1g-dev libxml2-dev libxslt1-dev libffi-dev nodejs
