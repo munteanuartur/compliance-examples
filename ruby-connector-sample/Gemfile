@@ -15,7 +15,7 @@ gem 'rest-client'
 # Assets
 gem 'slim'
 gem 'autoprefixer-rails'
-gem 'bootstrap', '~> 4.3.1'
+gem 'bootstrap', '~> 5.0.0'
 gem 'jquery-rails'
 
 group :development, :test do
